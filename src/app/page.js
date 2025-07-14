@@ -87,17 +87,17 @@ export default function Home() {
   }
 
   return (
-    <div className="bg-gray-200 p-5 md:p-8 lg:px-12 lg:py-8">
+    <div className="bg-sthwhite p-5 md:p-8 lg:px-12 lg:py-8">
       <div className="fixed bottom-5 right-5 md:bottom-8 md:right-8 lg:bottom-8 lg:right-12 z-50">
         <Button href="/submit">Create <span className="text-xl font-bold">+</span></Button>
       </div>
-      <p className="text-sm font-bold text-red-600 mb-1">
+      <p className="text-sm font-bold text-sthhoverred mb-1">
         HIGHLIGHTS
       </p>
-      <p className="text-3xl font-bold text-gray-950 mb-2">
+      <p className="text-3xl font-bold text-black mb-2">
         What are the special moments in your life?
       </p>
-      <p className="text-lg text-gray-950 mb-4 md:mb-6 lg:mb-8">
+      <p className="text-lg text-sthblack mb-4 md:mb-6 lg:mb-8">
         We believe every moment counts!
         Share your favourite highlights, unforgettable memories, and the stories that make your life shine.
       </p>

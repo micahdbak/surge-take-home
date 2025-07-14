@@ -28,13 +28,13 @@ export function Card(props) {
   }, [title]);
 
   return (
-    <div className="bg-white rounded-xl border-px border-gray-400 p-6">
+    <div className="bg-white rounded-xl border-[2px] border-sthwhite2 p-6">
       <div className="w-full aspect-video mb-3">
         <img src={imageUrl} alt={title} className="rounded-xl w-full h-full object-cover" />
       </div>
-      <p className="text-lg text-black font-semibold mb-0">{title}</p>
-      <p className="text-base text-gray-400 mb-2">{location}</p>
-      <p className="text-sm text-black line-clamp-3">{desc}</p>
+      <p className="text-lg text-sthblack2 font-semibold mb-0">{title}</p>
+      <p className="text-base text-sthgray mb-2">{location}</p>
+      <p className="text-sm text-sthblack2 line-clamp-3">{desc}</p>
     </div>
   );
 }
